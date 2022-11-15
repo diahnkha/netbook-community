@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;400;600;700;800&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+          theme: {
+            container: {
+              screens: {
+                xl: '1170px'
+              }
+            },
+            extend: {
+              colors: {
+                netblue: '#217BF4',
+              },
+              fontFamily : {
+                inter: ["Inter"],
+              }
+            }
+          }
+        }
+    </script>
+    <script src="https://kit.fontawesome.com/e0f8177fe6.js" crossorigin="anonymous"></script>
+</head>
+<body class="text-inter">
+    <section id="navbar" class="bg-sky-100 py-[11px] border-b border-sky-200">
+        <div class="container mx-auto flex items-center justify-between">
+            <img src="./assets/logo.png" alt="logo">
+            <div class="menu w-1/2">
+              <ul class="flex gap-8">
+                <li>Home</li>
+                <li class="flex items-center">
+                  Community
+                  <i class="fa-sharp fa-solid fa-chevron-down ml-[5px] text-[12px]"></i>
+                </li>
+                <li>Blog</li>
+                <li>Events</li>
+              </ul>
+            </div>
+            <div class=" w-36 after:content-[''] after:w-full after:h-2 after:bg-slate-600">
+              <i class="fa-solid fa-magnifying-glass"></i>
+              <input type="text" class="bg-transparent w-24 outline-none" placeholder="Search Here...">
+            </div>
+            <button class="py-4 px-[32px] bg-netblue rounded-xl text-[14px] text-white">Log in</button>
+        </div>
+    </section>
+    <section id="hero" class="bg-sky-100 py-[72px] mb-24">
+        <div class="container mx-auto columns-2 flex items-center gap-[69px]">
+          <div class="">
+            <div class="text-netblue mb-5 py-3 px-[30px] bg-sky-200 w-fit rounded-lg">Netbook community</div>
+            <h1 class="text-[56px] mb-[18px] font-bold leading-[66px]">Your Solutions for Community!</h1>
+            <p class="text-[18px] mb-[42px]">More than 2 billion people in over countries use socibook to stay in touch with friends & family.</p>
+            <div class="">
+              <button class="text-[14px] py-4 px-[32px] text-white bg-netblue rounded-lg mr-[18px] shadow-lg shadow-sky-200">About Us</button>
+              <button class="text-[14px] py-4 px-[32px] text-netblue border border-netblue rounded-lg">Invite Friend</button>
+            </div>
+          </div>
+          <img src="./assets/images/hero.png" alt="">
+        </div>
+    </section>
+    <section id="join">
+      <div class="container mx-auto">
+        
+      </div>
+    </section>
+</body>
+</html>
