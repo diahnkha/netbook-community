@@ -114,6 +114,10 @@ section .container{
     padding: 82px 0;
 }
 
+#achievment{
+    margin-top: 21px;
+}
+
 #achievment .achievment-box{
     width: 336px;
     height: 340px;
@@ -141,4 +145,50 @@ section .container{
 
 
     color: #5D5B70;
+}
+
+#community h2{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 36px;
+    /* identical to box height, or 100% */
+
+    text-align: center;
+
+    color: #0A093D;
+}
+
+#community .community-feature .content{
+    width: 522px;
+    height: 182px;
+    left: 176px;
+    top: 262px;
+    padding: 40px;
+    
+    background: #FFF;
+    box-shadow: 14px 22px 52px -12px rgba(127, 127, 127, 0.13);
+    border-radius: 14px;
+}
+
+#community h3{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 26px;
+    /* identical to box height, or 108% */
+
+
+    color: #2F2C4A;
+}
+
+#community p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    /* or 162% */
+
+
+    color: #656464;
 }
