@@ -9,6 +9,10 @@ input{
     font-family: 'Inter';
 }
 
+.container{
+    overflow: hidden;
+}
+
 #header .menu-navigation a, 
 #header .menu-navigation a.active{
     font-style: normal;
@@ -42,7 +46,7 @@ input{
 } */
 
 #header .container{
-    padding: 0;
+    padding: 0 20px;
 }
 
 span{
@@ -67,7 +71,7 @@ p{
 }
 
 .box-title{
-    width: 515px;
+    max-width: 515px;
 }
 
 .box-title h1, 
@@ -111,7 +115,7 @@ p{
 }
 
 section .container{
-    padding: 82px 0;
+    padding: 82px 20px;
 }
 
 #achievment{
@@ -192,3 +196,137 @@ section .container{
 
     color: #656464;
 }
+
+#teams h2{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 36px;
+    /* identical to box height, or 100% */
+
+    text-align: center;
+
+    color: #0A093D;
+}
+
+#teams p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    /* or 162% */
+
+
+    color: #656464;
+}
+
+#teams .teams-active{
+    border-radius: 14px;
+    width: 474px;
+    height: 72px;
+    margin: 0 auto;
+    padding: 8px;
+}
+
+#teams .teams-active .content{
+    letter-spacing: 0.01em;
+    color: #2F2C4A;
+    opacity: 0.8;
+}
+
+.member-detail{
+    width: 270px;
+    height: 316px;
+    padding: 52px 30px;
+    background: #FFFF;
+    box-shadow: 0px 34px 68px rgba(116, 115, 128, 0.1);
+    border-radius: 14px;
+    margin: 0 auto;
+}
+
+
+#apps .apps-desc{
+    font-style: normal;
+    font-weight: 700;
+    line-height: 36px;
+    color: #0A093D;
+    font-size: 36px;
+    font-weight: 600px;
+    line-height: 48px; 
+    text-align: center;
+}
+
+.news-box{
+    width: 340px;
+    height: 459px;
+}
+
+.news-desc h3{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 32px;
+    color: #2F2C4A;
+    text-align: left;
+}
+
+.news-desc p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    /* identical to box height, or 100% */
+    color: #656464;
+}
+
+#footer .link-detail, 
+#footer .footer-right h3{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 20px;
+    /* identical to box height, or 100% */
+
+
+    color: #FFFFFF;
+}
+
+#footer .link-detail li, 
+#footer .footer-right p,
+#footer .footer-right .content{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 46px;
+    /* or 288% */
+    
+    letter-spacing: 0.0125em;
+    
+    color: #E7E7E7;
+}
+
+#footer .footer-right p{
+    line-height: 28px;
+}
+
+.btn-white{
+    background: #FFFFFF;
+    border-radius: 12px;
+    font-style: normal;
+    color: black;
+    padding: 16px 24px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 16px;
+    /* identical to box height, or 100% */
+
+    text-align: center;
+}
+
+#footer .border-footer-right{
+    border: 1px solid rgba(255, 255, 255, 0.85);
+    border-radius: 12px; 
+    width: 339px;
+    height: 48px;   
+}
+
+
+
